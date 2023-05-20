@@ -1,0 +1,163 @@
+.menutabs {
+    position: absolute; 
+    top: 1em; 
+    right: 10em; 
+    cursor: pointer;
+    font-weight: bold; 
+    font-style: normal; 
+    font-variant: calc(); 
+    font-family: 'Courier New', Courier, monospace; 
+    color: rgb(11, 28, 56); 
+    word-spacing: 2em;
+    list-style-type: none;}
+    
+.word-spacing { word-spacing: -0.3em;} 
+ul {list-style-type: none;
+    margin: 0;
+    padding: 0;}
+
+li {display: inline;}     
+    
+ .container { position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    top: 2em;
+    left: 2em;} 
+        
+        
+ .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;}       
+    
+.line1 {position: static; 
+    color:white;}
+            
+
+.flex-container {position: absolute;
+    display: flex;
+    background-color: rgba(73, 100, 126, 0.8);
+    top: 7em; 
+    right: -0.5em;
+    left: -0.5em;
+    bottom: -6em;
+    justify-content: center;}
+    
+.welcome { position: absolute;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    top: 7em;
+    font-size: 1.7em;
+    font-family: garamond;
+    font-weight: bold;}   
+    
+.sub-welcome { position: absolute;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    font-size: 1.5em;
+    font-family: garamond;
+    font-weight: bold;
+    top: 12em;}
+    
+#video-banner {top: 7em; 
+    size:70em; }
+    
+    
+#video1 {position: absolute;
+    top: 7em; 
+    right: -0.5em;
+    left: -0.5em;
+    bottom: -100em;
+    z-index: -1; 
+    min-height: 30%; 
+    min-width: 100%}
+    
+.intro {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    text-align: center ;
+    border-style: hidden;
+    background-color: rgba(231, 127, 43, 0.3);
+    margin-left: -0.5em;
+    margin-top: 40em;
+    margin-right: -0.5em;
+    padding: 100px 730px 400px;
+    }
+
+button {position: absolute;
+top: 80em;
+background-color: #045211; 
+border: none;
+cursor: pointer;
+color: rgb(255, 255, 255);
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+font-size: 20px;
+border-radius: 12px;
+width: 25%;
+box-shadow: 0 16px rgb(7, 7, 7);
+transform: translateY(4px);}
+
+button:hover {
+background-color: #3b3b39;
+transition-duration: 0.4s;}
+
+
+
+/* 
+table, td, th {
+border: 1px solid; text-align: center;}
+
+table { width: 40%;
+border-collapse: collapse;}  
+    
+ 
+#email-input {font-size: larger; 
+    color: rgb(173, 110, 28);}
+
+div p {color: blueviolet; 
+    cursor: pointer;}
+
+
+
+.space {letter-spacing: 1px;}
+
+  
+    
+
+
+
+ /*.background {background-position: absolute;
+    /*background-color:rgba(73, 100, 126, 0.7);
+background-repeat: no-repeat;
+
+background-color: rgba(76, 110, 233, 0.5)
+background-image: url ("https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Lagos_skyline.jpg/1024px-Lagos_skyline.jpg");
+/*("https://lh3.googleusercontent.com/mbkag_QXOHFalgRVd1l53mNimDXA87sEEoxq1Zwno2hlOtPCSnUop6nbs7U_21lb60KcZE_4TkmwHrGiXemVS4OzahAZCivENEgGwSgD2o_WxHIlLm2nY8VbHWEDVEhEqbXdmile-8s=w300-h300-p-k");*/
+/*("https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Lagos_skyline.jpg/1024px-Lagos_skyline.jpg");*/
+ /*https://giffiles.alphacoders.com/400/4007.gif
+/*background-size: 100%;
+
+top: 7em;
+right: -0.5em;
+left: -0.5em;
+}*/   
+    
+/*.flex-container1 {position: absolute;
+    display: flex; 
+    background-color: rgb(198, 37, 37); 
+    top: 1em; 
+    right: -0.1em; 
+    left: 0px; 
+    bottom: 80%;
+
+    justify-content: center;}*/
+    
+ /* .border {border-style: none; border-color:  rgba(8, 8, 67, 0.5);
+}*/
+/*height: 70%;*/
+
+    
